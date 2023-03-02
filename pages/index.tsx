@@ -1,7 +1,16 @@
+import { GridAutoColumnContainer } from "../src/styles/grid/AutoGridColumns";
+import HtmlHead from "../components/Head";
+
 const Home = () => {
   return (
     <>
-      <h1>Hello from next</h1>
+      <HtmlHead title={"forside"} description={"Forside"} />
+      <GridAutoColumnContainer>
+        <div>Hello</div>
+        <div>Hello</div>
+        <div>Hello</div>
+        <div>Hello</div>
+      </GridAutoColumnContainer>
     </>
   );
 };
